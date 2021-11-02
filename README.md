@@ -17,3 +17,9 @@ To find the vertical sequences, the arrangement of strings was converted into an
 
 # Diagonal Sequences
 To find the diagonal sequences, the character arrangement was traversed and the corresponding positions of the diagonal were validated if it met the requirement
+
+# Run the api 
+from postman with the url http://mutantapp-env.eba-uwm9ppen.us-east-2.elasticbeanstalk.com/mutant/, with a POST request, start a json with the following format:
+{
+"dna": ["AGGCGA", "CAGTGC", "TTAGGT", "AGAAGG", "CCCTTA", "TCACTG"]
+}
